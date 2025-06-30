@@ -1,24 +1,27 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.pyc
-*.log
-
-# Virtual env
-venv/
-env/
-
 # Environment variables
 .env
 
-# OS files
-.DS_Store
-Thumbs.db
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# VS Code
+# User logs
+user_queries.json
+
+# Jupyter Notebook checkpoints (if any)
+.ipynb_checkpoints
+
+# VS Code settings
 .vscode/
 
-# Others
-*.sqlite3
+# macOS system files
+.DS_Store
+
+# Python virtual environments
+venv/
+env/
+
+# OS-generated files
+Thumbs.db
+desktop.ini
